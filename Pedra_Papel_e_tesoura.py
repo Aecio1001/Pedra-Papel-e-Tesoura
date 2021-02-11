@@ -126,7 +126,7 @@ class Game:
         else:
             self.pr1 += 1
             self.pr2 += 1
-            return (f"a rodada ficou impatada! Você ganhou {self.pr1} e o" +
+            return (f"a rodada ficou impatada! Você ganhou {self.pr1} e o " +
                     f"computador ganhou {self.pr2}!")
 
     def play_game(self):
